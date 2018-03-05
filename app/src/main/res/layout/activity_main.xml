@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rob.tictactoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/XO"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/XO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gameStateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gameState"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:text="@string/gameState" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".9"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/newGameButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="newGame"
+            android:text="@string/newGame"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:text="@string/newGame" />
+    </LinearLayout>
+</LinearLayout>
